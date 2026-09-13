@@ -1,0 +1,14 @@
+{
+  // Community health files are short templates and profile docs, not prose
+  // documents, so relax the rules that fight that structure while keeping the
+  // checks that catch genuinely malformed Markdown.
+  "config": {
+    "default": true,
+    "MD013": false, // line length: templates contain long instructional lines
+    "MD041": false, // first line h1: templates start with a section heading
+    "MD033": false, // inline HTML: PR/issue templates use HTML comments
+    "MD024": false  // duplicate headings: sections repeat across templates
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**"]
+}

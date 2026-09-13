@@ -1,0 +1,4 @@
+{
+  "name": ".github community health files",
+  "install": "bash .cursor/install.sh"
+}

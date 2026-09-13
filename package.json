@@ -1,0 +1,13 @@
+{
+  "name": "github-community-health",
+  "version": "1.0.0",
+  "description": "Validation tooling for the natureofclarity org community health files",
+  "private": true,
+  "scripts": {
+    "validate": "bash scripts/validate.sh"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "markdownlint-cli2": "^0.23.2"
+  }
+}
